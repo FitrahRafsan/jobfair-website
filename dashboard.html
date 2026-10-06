@@ -1,0 +1,99 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - JOBFAIR WINATA</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <i class="fas fa-briefcase"></i>
+                JOBFAIR WINATA ANJAY
+            </div>
+            <div class="navbar-user">
+                <div class="user-info">
+                    <div class="user-name" id="userName">-</div>
+                    <div class="user-email" id="userEmail">-</div>
+                </div>
+                <button class="btn-logout" id="logoutBtn">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </button>
+            </div>
+        </nav>
+
+        <!-- Dashboard Menu -->
+        <div class="dashboard-grid">
+            <a href="apply-job.html" class="dashboard-card">
+                <div class="card-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="card-title">Ajukan Lamaran</div>
+                <div class="card-description">Lamar pekerjaan impian Anda dengan mudah dan cepat</div>
+            </a>
+
+            <a href="status.html" class="dashboard-card">
+                <div class="card-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-title">Status Lamaran</div>
+                <div class="card-description">Pantau perkembangan lamaran kerja Anda secara real-time</div>
+            </a>
+
+            <a href="history.html" class="dashboard-card">
+                <div class="card-icon">
+                    <i class="fas fa-history"></i>
+                </div>
+                <div class="card-title">Riwayat Lamaran</div>
+                <div class="card-description">Lihat semua lamaran yang pernah Anda ajukan</div>
+            </a>
+
+            <a href="jobs.html" class="dashboard-card">
+                <div class="card-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="card-title">Cari Pekerjaan</div>
+                <div class="card-description">Temukan berbagai lowongan kerja terbaik untuk Anda</div>
+            </a>
+
+            <a href="profile.html" class="dashboard-card">
+                <div class="card-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="card-title">Profil Saya</div>
+                <div class="card-description">Kelola informasi profil dan CV Anda</div>
+            </a>
+
+            <a href="notifications.html" class="dashboard-card">
+                <div class="card-icon">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="card-title">Notifikasi</div>
+                <div class="card-description">Lihat update terbaru tentang lamaran Anda</div>
+            </a>
+
+            <!-- Tambahan Menu Ujian Online -->
+            <a href="ujian.html" class="dashboard-card">
+                <div class="card-icon">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <div class="card-title">Ujian Online</div>
+                <div class="card-description">Ikuti tes online untuk melengkapi lamaran Anda</div>
+            </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="totalApplications">0</div>
+                <div class="stat-label">Total Lamaran</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="pendingApplications">0</div>
+                <div class="stat-label">Sedang Diproses</div>
+            </div>

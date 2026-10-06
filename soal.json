@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "soal": "Apa ibu kota Indonesia?",
+    "pilihan_a": "Bandung",
+    "pilihan_b": "Jakarta",
+    "pilihan_c": "Surabaya",
+    "pilihan_d": "Medan",
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 2,
+    "soal": "2 + 2 = ?",
+    "pilihan_a": "3",
+    "pilihan_b": "4",
+    "pilihan_c": "5",
+    "pilihan_d": "6",
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 3,
+    "soal": "Bahasa pemrograman untuk web server?",
+    "pilihan_a": "HTML",
+    "pilihan_b": "CSS",
+    "pilihan_c": "PHP",
+    "pilihan_d": "Photoshop",
+    "jawaban_benar": "C"
+  }
+]

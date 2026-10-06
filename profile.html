@@ -1,0 +1,48 @@
+<!-- history.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwayat Lamaran - JOBFAIR WINATA</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <i class="fas fa-briefcase"></i>
+                JOBFAIR WINATA
+            </div>
+            <div class="navbar-user">
+                <div class="user-info">
+                    <div class="user-name" id="userName">-</div>
+                    <div class="user-email" id="userEmail">-</div>
+                </div>
+                <button class="btn-logout" id="logoutBtn">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </button>
+            </div>
+        </nav>
+
+        <div class="content-area">
+            <div class="content-header">
+                <h2 class="content-title">
+                    <i class="fas fa-history"></i>
+                    Riwayat Lamaran
+                </h2>
+                <a href="dashboard.html" class="btn-back">
+                    <i class="fas fa-arrow-left"></i> Kembali
+                </a>
+            </div>
+            
+            <div class="status-list" id="historyList">
+                <!-- History items will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="status.js"></script>
+</body>
+</html>

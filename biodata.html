@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata - Rekrutmen PT. Nusantara Surya Sakti</title>
+    <style>body { font-family: Arial; margin: 20px; } form { max-width: 600px; }</style>
+</head>
+<body>
+    <h1>Form Biodata Pelamar</h1>
+    <p>Isi data diri dan pengalaman kerja Anda.</p>
+    <form action="beranda.html" method="post">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+        <label for="alamat">Alamat:</label><br>
+        <textarea id="alamat" name="alamat"></textarea><br><br>
+        <label for="pendidikan">Pendidikan Terakhir:</label><br>
+        <select id="pendidikan" name="pendidikan">
+            <option value="SMA">SMA</option>
+            <option value="S1">S1</option>
+            <option value="S2">S2</option>
+        </select><br><br>
+        <label for="pengalaman">Pengalaman Kerja:</label><br>
+        <textarea id="pengalaman" name="pengalaman"></textarea><br><br>
+        <button type="submit">Simpan Biodata</button>
+    </form>
+    <p><a href="beranda.html">Kembali ke Beranda</a></p>
+</body>
+</html>
